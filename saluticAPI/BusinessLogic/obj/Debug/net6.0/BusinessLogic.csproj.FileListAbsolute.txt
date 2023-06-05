@@ -1,0 +1,17 @@
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\bin\Debug\net6.0\Common.dll
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\bin\Debug\net6.0\Data.dll
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\bin\Debug\net6.0\Common.pdb
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\bin\Debug\net6.0\Data.pdb
+C:\Users\ABJ\source\repos\saluticAPI\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
