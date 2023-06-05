@@ -80,23 +80,33 @@ namespace BusinessLogic.ProcessBL
 
         public async Task<FileModel> UploadFile(int applicantId, int processId, IFormFile file)
         {
-           MemoryStream stream = new MemoryStream();
-
-           file.CopyTo(stream);
-
-           stream.Position = 0;
-
-            var fileEntity = new ApplicantFiles()
+            try
             {
-                ApplicantId = applicantId,
-                ProcessId = processId,
-                FileName = file.FileName,
-                FileData = stream.ToArray()
-            };
+                if (applicantId == 0 || processId == 0)
+                    throw new Exception("Applicant or process id is 0");
 
-            fileEntity = await ProcessRepository.UploadFile(fileEntity);
+                MemoryStream stream = new MemoryStream();
 
-            return AutoMapper.Map<FileModel>(fileEntity);
+                file.CopyTo(stream);
+
+                stream.Position = 0;
+
+                var fileEntity = new ApplicantFiles()
+                {
+                    ApplicantId = applicantId,
+                    ProcessId = processId,
+                    FileName = file.FileName,
+                    FileData = stream.ToArray()
+                };
+
+                fileEntity = await ProcessRepository.UploadFile(fileEntity);
+
+                return AutoMapper.Map<FileModel>(fileEntity);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public async Task<FileModel> DownloadFile(int fileId)
@@ -132,7 +142,7 @@ namespace BusinessLogic.ProcessBL
                 return AutoMapper.Map<ApplicantModel>(applicantEntity);
             }catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                throw ex;
             }
         }
     }

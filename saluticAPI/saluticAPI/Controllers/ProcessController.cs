@@ -3,7 +3,9 @@ using Common.Models.Applicant;
 using Common.Models.File;
 using Common.Models.Process;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.StaticFiles;
 using System.Runtime.CompilerServices;
+using System.Web;
 
 namespace saluticAPI.Controllers
 {
@@ -48,9 +50,9 @@ namespace saluticAPI.Controllers
         }
 
         [HttpPost("{applicantId}/{processId}/upload")]
-        public async Task<FileModel> UploadFile(int applicantId, int ProcessId, IFormFile file)
+        public async Task<FileModel> UploadFile(int applicantId, int processId, IFormFile file)
         {
-            var result = await ProcessBL.UploadFile(applicantId, ProcessId, file);
+            var result = await ProcessBL.UploadFile(applicantId, processId, file);
 
             return result;
         }
@@ -60,9 +62,10 @@ namespace saluticAPI.Controllers
         {
             var file = await ProcessBL.DownloadFile(fileId);
 
-            var extension = Path.GetExtension(file.FileName);
-
-            return File(file.FileData, "application/pdf", file.FileName);
+            string contentType;
+            new FileExtensionContentTypeProvider().TryGetContentType(file.FileName, out contentType);
+            
+            return File(file.FileData, contentType, file.FileName);
         }
 
         [HttpPost("{id}/applicant")]
