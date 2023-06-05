@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IV25OxUizlQ49mxrcds1iCe/mknNWEBtCdu7WVMAo6eOzAmy7s6t4pfXHoSXpHEug8tbAwqFtInLbHp3MzP5zw==",
+  "dgSpecHash": "epKcyy4q5msqBfJgCW0zG28SD7+1yeZ7Ez5gq9LGVQTm0C4x1W0QrK32l5KxqbYoRh713fKLKKQDJlIZtwh91g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\saluticAPI\\saluticAPI.csproj",
+  "projectFilePath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\saluticAPI\\saluticAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ABJ\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ABJ\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

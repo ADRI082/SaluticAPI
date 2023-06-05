@@ -20,7 +20,5 @@ namespace BusinessLogic.ProcessBL
         Task<FileModel> DownloadFile(int fileId);
 
         Task<ApplicantModel> CreateApplicant(int processId, ApplicantCreateModel newApplicant);
-
-        Task Example();
     }
 }

@@ -26,7 +26,5 @@ namespace Data.Repository.ProcessRepository
         Task<ApplicantEntity> CreateApplicant(ApplicantEntity applicant);
 
         Task CreateApplicantProcess(ApplicantProcessEntity applicantProcess);
-
-        Task Example();
     }
 }

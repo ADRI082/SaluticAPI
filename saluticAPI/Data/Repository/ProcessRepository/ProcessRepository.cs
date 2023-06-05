@@ -91,16 +91,5 @@ namespace Data.Repository.ProcessRepository
 
             await DbContext.SaveChangesAsync();
         }
-
-        public async Task Example()
-        {
-            var applicants = await DbContext.Processes
-                                            .Include(p => p.ProcessStatus)
-                                            .GroupBy(p => new { p.CreatedDate.Year, p.ProcessStatus.StatusName })
-                                            .Select(a => new { a.Key.Year, ProcessStatus = a.Key.StatusName, Count = a.Count() })
-                                            .ToListAsync();
-
-            var aux = applicants;
-        }
     }
 }

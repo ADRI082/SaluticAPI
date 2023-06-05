@@ -26,5 +26,7 @@ namespace Data.Entity
 
         [Column("linkedin_url")]
         public string? LinkedinURL { get; set; }
+
+        public virtual ApplicantProcessEntity ApplicantProcess { get; set; }
     }
 }

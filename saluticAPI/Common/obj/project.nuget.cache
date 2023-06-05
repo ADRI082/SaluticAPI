@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V2lWLA5d6+4QQWwqfmonL2RP/ZAJx4l3cLgxOPOu6Q/ORKEkdb7sBX1dyML9z7PWK7IneBKOJKatKa2Bv8bi1A==",
+  "dgSpecHash": "m2B3nLfLxHRkTCSQmPXcwFe3WZtPQZjHmVGKmCMg9ey3RbeCz85bUIUkaeauFI4ZJpbEdPfUHbb6uZEglEdF9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Common\\Common.csproj",
+  "projectFilePath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Common\\Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

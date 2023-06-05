@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MMCA5xJci4Bwnu20Zz45ot3cT1VfoEbzhDKW3dIYb0lMR7Efp9POeZrpsusCsBox31zmQcdqHITM/IRa1pBwaA==",
+  "dgSpecHash": "wunSL9cTLBnhMeGlw/UMtTsSsFSirhs3nRnl4Dqy1kJUDu6Nt60NgermjbeWX111qK4sWk9sABnjegN7N/CCSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ABJ\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ABJ\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n9jIoBMkB8wT9kRnZ2Hv8XCObFwcKlAqPHJt8g+0nntBLCBKxhTAJfThhtpn9UVW9tftCdFfXpNvBzGJ5V8v/Q==",
+  "dgSpecHash": "ICF1GAEN5cHfDFoLFP4/8WBBbsef4TV1lpcFicLyHEDOihPlmnEHUdDYdmU0iTmHL/nICuqSFgZQwYGuXXrw3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ABJ\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ABJ\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",

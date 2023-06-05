@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Common\\Common.csproj": {}
+    "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Common\\Common.csproj": {
+    "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\ABJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Common\\obj\\",
+        "outputPath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ABJ\\AppData\\Roaming\\NuGet\\NuGet.Config",

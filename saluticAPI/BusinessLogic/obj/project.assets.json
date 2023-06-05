@@ -945,11 +945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\BusinessLogic\\BusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\BusinessLogic\\BusinessLogic.csproj",
       "projectName": "BusinessLogic",
-      "projectPath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\BusinessLogic\\BusinessLogic.csproj",
+      "projectPath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\BusinessLogic\\BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\ABJ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\BusinessLogic\\obj\\",
+      "outputPath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ABJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -966,11 +966,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Common\\Common.csproj"
+            "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Common\\Common.csproj"
             },
-            "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\ABJ\\source\\repos\\saluticAPI\\Data\\Data.csproj"
+            "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\ABJ\\Desktop\\SaluticAPI\\saluticAPI\\Data\\Data.csproj"
             }
           }
         }

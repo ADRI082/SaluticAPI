@@ -108,26 +108,32 @@ namespace BusinessLogic.ProcessBL
 
         public async Task<ApplicantModel> CreateApplicant(int processId, ApplicantCreateModel newApplicant)
         {
-            var applicantEntity = AutoMapper.Map<ApplicantEntity>(newApplicant);
-
-            applicantEntity = await ProcessRepository.CreateApplicant(applicantEntity);
-
-            var applicantProcessEntity = new ApplicantProcessEntity()
+            try
             {
-                ApplicantId = applicantEntity.Id,
-                ProcessId = processId,
-                ApplicantStatusId = Constants.INCLUDED_IN_PROCESS,
-                ApplicantIncludedDate = DateTime.Now
-            };
+                var process = await ProcessRepository.GetProcessById(processId);
 
-            await ProcessRepository.CreateApplicantProcess(applicantProcessEntity);
+                if (process == null)
+                    throw new Exception("Process not found");
 
-            return AutoMapper.Map<ApplicantModel>(applicantEntity);
-        }
+                var applicantEntity = AutoMapper.Map<ApplicantEntity>(newApplicant);
 
-        public async Task Example()
-        {
-            await ProcessRepository.Example();
+                applicantEntity = await ProcessRepository.CreateApplicant(applicantEntity);
+
+                var applicantProcessEntity = new ApplicantProcessEntity()
+                {
+                    ApplicantId = applicantEntity.Id,
+                    ProcessId = processId,
+                    ApplicantStatusId = Constants.INCLUDED_IN_PROCESS,
+                    ApplicantIncludedDate = DateTime.Now
+                };
+
+                await ProcessRepository.CreateApplicantProcess(applicantProcessEntity);
+
+                return AutoMapper.Map<ApplicantModel>(applicantEntity);
+            }catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

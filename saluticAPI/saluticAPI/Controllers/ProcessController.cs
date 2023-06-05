@@ -72,13 +72,5 @@ namespace saluticAPI.Controllers
 
             return result;
         }
-
-        [HttpGet("example")]
-        public async Task<IActionResult> Example()
-        {
-           await ProcessBL.Example();
-            return null;
-        }
-
     }
 }
